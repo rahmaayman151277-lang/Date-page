@@ -13,8 +13,8 @@ body {
 }
 .continar {
   background-color: black;
-  width: 350px;
-  height: 90px;
+  width: 400px;
+  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,18 +25,20 @@ body {
 .num{
   color: white;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 40px;
 }
-p {
-  color: #666666;
+.continar div p:last-child {
+  color: #444444;
   font-size: 1px;
   font-weight: 600;
+  letter-spacing: 0px;
+  margin-top: 5px;
 }
 .colon {  
-  margin-bottom: 20px;
-  margin-left: 20px;
-  color: #444444;
-  font-family: 20px;
+  margin: 0 20px 10px;
+  color: #666666;
+  font-weight: 600;
+  font-size: 20px;
 }
 .day,
 .hours,
